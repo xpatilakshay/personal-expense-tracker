@@ -55,3 +55,35 @@ source venv/bin/activate
 ```bash
 pip install mysql-connector-python tabulate
 ```
+## Database Setup
+
+1. Ensure you have MySQL installed and running.
+2. Create a database named `expense_db` or change the database connection settings in the code to use an existing database.
+3. The application will automatically create the necessary table (`expenses`) when it is run for the first time.
+
+## Usage
+
+### Run the Program:
+
+```bash
+python expense_tracker.py
+```
+
+#### Select Operations:
+
+**After running the program, you will be prompted to choose from the following operations:**
+
+1. Add an expense.
+
+2. View all expenses.
+
+3. Filter expenses.
+
+4. Delete an expense.
+
+5. The data will be stored in the MySQL database and will persist across program executions.
+
+#### Acknowledgements
+
+Thanks to the MySQL and Python communities for their open-source contributions.
+
